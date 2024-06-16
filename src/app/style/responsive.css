@@ -97,10 +97,13 @@
 }
 @media (max-width:767px) {
     .home_page{
-        height: 65vh !important;
+        height:70vh !important;
     }
     .build .b {
         width: 49%;
+    }
+    build{
+        padding: 15px !important ;
     }
     .icon{
         display: none !important;
@@ -114,6 +117,7 @@
   .scroll{
     position: relative !important;
     overflow-x: hidden !important;
+   
     /* display: none !important; */
   }
   .scr{
@@ -141,13 +145,17 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
    
 }
+.syn{
+visibility: hidden !important;
+}
    
 }
 
 @media (max-width:500px){
     .build .b {
-        width: 98% !important;
+        width: 92% !important;
     }
+ 
     .icons{
         display: none !important;
     }
@@ -172,5 +180,9 @@
     }
     .input_two{
         width: 105px !important;
+        right: -13px;
+    }
+    .service-box h1{
+        display: none !important;
     }
 }

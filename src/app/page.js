@@ -105,7 +105,7 @@ export default function Home() {
 
 </div>
 
-<div className="container my-5">
+<div className="container syn ">
 <h6 className="text-center">Infinite potential | Unlocked through vision | Skill meets imagination | Custom digital masterpieces | Captivate | Inspire | Innovate | Break boundaries</h6>
 <h6 className="text-center">Together we build it At Syntax Arts</h6>
 </div>
@@ -156,7 +156,7 @@ export default function Home() {
 </div>
 </div>
 <div>
-  <h5 className="text-center my-3">Vlaue pricing</h5>
+  <h5 className="text-center my-3">Value pricing</h5>
   <p style={{textAlign:"center"}}>We determine what makes the client's website unique and how it will deliver value to their business, such as driving sales, generating leads, or improving customer engagement.</p>
 </div>
 </div>
