@@ -20,24 +20,24 @@ const Navbar = () => {
     </button>
     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <h5 className="offcanvas-title" style={{color:'blue',fontWeight:"700"}} id="offcanvasNavbarLabel">Syntax Arts</h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+          <li className="nav-item" data-bs-dismiss="offcanvas">
+            <Link className="nav-link active" aria-current="page"   href="/">Home</Link>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/about">About Us</a>
+          <li className="nav-item" data-bs-dismiss="offcanvas">
+            <a className="nav-link"  href="/about">About Us</a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link active" href="/service">Service</a>
+          <li className="nav-item" data-bs-dismiss="offcanvas">
+            <Link className="nav-link  active"  href="/service">Service</Link>
           </li>
           <li className="nav-item">
             <a className="nav-link active" href="#">Projects</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" data-bs-dismiss="offcanvas">
             <Link className="nav-link active" href="/contact">Contact Us</Link>
           </li>
         </ul>

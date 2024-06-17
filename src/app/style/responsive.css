@@ -155,6 +155,17 @@ visibility: hidden !important;
     .build .b {
         width: 92% !important;
     }
+    .allservice{
+        margin-top: 30px !important;
+    }
+    .offcanvas-body{
+        background-color: black !important;
+    }
+    .nav-link{
+        font-size: 35px !important;
+        margin-bottom: 30px;
+        color: white !important;
+    }
  
     .icons{
         display: none !important;
@@ -184,5 +195,8 @@ visibility: hidden !important;
     }
     .service-box h1{
         display: none !important;
+    }
+    .footer{
+        margin-bottom: 50px !important;
     }
 }

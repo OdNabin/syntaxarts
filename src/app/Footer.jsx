@@ -23,9 +23,7 @@ export const Footer = () => {
           <div className="col-md-3 col-sm-6">
             <Image src={logo} alt="Logo" className="img-fluid mb-3" />
             <p>
-              BROWNEDGE TECHNOLOGY, a category-defining engineering solutions
-              firm redefining core engineering problems in the Smart
-              Infrastructure space.
+            Welcome to Syntax Arts, your premier destination for exceptional website design and development services. We specialize in creating visually stunning, highly functional, and user-friendly websites that elevate your online presence and drive business growth.
             </p>
             <div>
               <MdOutlineFacebook
@@ -52,7 +50,7 @@ export const Footer = () => {
           </div>
 
           <div className="col-md-3 col-sm-6">
-            <h5>Products</h5>
+            <h5>Services</h5>
             <ul className="list-unstyled">
               <li >
                 <Link
@@ -60,7 +58,7 @@ export const Footer = () => {
                   className="text-white text-decoration-none"
                 >
                   <MdChevronRight />
-                  Instrument Clusters
+                  Website Development
                 </Link>
               </li>
               <li>
@@ -68,7 +66,7 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Infotainment
+                  <MdChevronRight /> Ui/Ux
                 </Link>
               </li>
               <li>
@@ -76,7 +74,7 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Displays
+                  <MdChevronRight /> Graphic Design
                 </Link>
               </li>
               <li>
@@ -84,17 +82,10 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Electrification
+                  <MdChevronRight /> Digital Marketing
                 </Link>
               </li>
-              <li>
-                <Link
-                  href={"/Instrument Clusters"}
-                  className="text-white text-decoration-none"
-                >
-                  <MdChevronRight /> Domain Controller
-                </Link>
-              </li>
+             
             </ul>
           </div>
 
@@ -114,7 +105,7 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Company
+                  <MdChevronRight /> About Us
                 </Link>
               </li>
               <li>
@@ -122,7 +113,7 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Offering
+                  <MdChevronRight /> Service
                 </Link>
               </li>
               <li>
@@ -130,7 +121,7 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Career
+                  <MdChevronRight /> Project
                 </Link>
               </li>
               <li>
@@ -138,7 +129,7 @@ export const Footer = () => {
                   href={"/Instrument Clusters"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> ContactUS
+                  <MdChevronRight /> Contact US
                 </Link>
               </li>
             </ul>
